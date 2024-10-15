@@ -1,0 +1,30 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .remove {
+    cursor: pointer;
+    color: red;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
